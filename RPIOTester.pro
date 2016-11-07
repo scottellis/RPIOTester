@@ -12,6 +12,8 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 TARGET = RPIOTester
 TEMPLATE = app
 
+DESTDIR = Output
+
 unix {
 	target.path = /usr/bin
 	INSTALLS += target
