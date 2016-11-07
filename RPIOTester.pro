@@ -5,7 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui serialport
-CONFIG += cxx11
+CONFIG += release
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
